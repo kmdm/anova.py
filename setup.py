@@ -1,7 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 setup(
     name="anovapy",
     version="0.1",
-    packages=find_packages('src'),
+    packages=[''],
     package_dir={'': 'src'},
 )
